@@ -32,8 +32,8 @@ img {
 .header-web-nav {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /*padding-top: 24px;
+    padding-bottom: 24px;*/
 }
 
 .header-web-logo {
@@ -59,6 +59,8 @@ img {
 .header-web-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .header-web-item {
@@ -139,8 +141,8 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 .benefits {}
 
 
-.benefits-title {}
-.visually-hedden {
+
+.visually-hidden {
     position: absolute;
         width: 1px;
         height: 1px;
