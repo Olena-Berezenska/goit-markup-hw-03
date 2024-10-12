@@ -15,9 +15,8 @@ img {
 }
 .container {
     max-width:1158px;
-    padding: right 15px;
-    padding-left: 15px;
-     margin: 0 auto;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .header-container {
@@ -77,6 +76,8 @@ img {
     display: flex;
     margin-left: auto;
     gap: 40px;
+    padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .contacts-item {
