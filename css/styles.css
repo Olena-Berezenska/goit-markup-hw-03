@@ -59,8 +59,9 @@ img {
 .header-web-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-        padding-bottom: 24px;
+    /*padding-top: 24px;
+    padding-bottom: 24px;*/
+    
 }
 
 .header-web-item {
@@ -69,6 +70,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
     }
 .header-web-item:hover, .header-web-item:focus {color: #404bbf;}
 
